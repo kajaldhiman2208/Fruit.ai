@@ -6,8 +6,8 @@ import HomePage from './HomePage';
 
 function AppRoutes() {
   const routes = useRoutes([
-    { path: "/", element: <ChatBotT /> },
-    { path: "/login", element: <LoginForm /> },
+    { path: "/chat", element: <ChatBotT /> },
+    { path: "/", element: <LoginForm /> },
     {path:"/home", element:<HomePage/>}
   ]);
 

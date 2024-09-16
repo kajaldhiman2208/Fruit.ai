@@ -63,7 +63,11 @@ const ChatBotT = () => {
 
 
   return (
+    <>
+    <h1 style={{fontSize:"20px", marginTop:"-400px", marginLeft:"-1%", position:"absolute"}}>Welcome to Chatbot.ai</h1>
+    <br />
     <Card className="w-full max-w-sm " style={{marginTop:"3%"}}>
+      
       <div className="chat-window" style={chatWindowStyle}>
         {messages.map((msg, index) => (
           <div key={index} className={`message ${msg.sender}`} style={msg.sender === "user" ? userMessageStyle : botMessageStyle}>
@@ -87,6 +91,7 @@ const ChatBotT = () => {
         <Button onClick={handleSendMessage} style={{marginTop:"3%", marginLeft:"0%", width:"100%"}}>Send</Button>
       </div>
     </Card>
+    </>
   );
 };
 
