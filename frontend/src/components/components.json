@@ -1,0 +1,21 @@
+{
+    "components": [
+      {
+        "name": "Button",
+        "path": "./src/components/ui/Button.js"
+      },
+      {
+        "name": "Card",
+        "path": "./src/components/ui/Card.js"
+      },
+      {
+        "name": "Input",
+        "path": "./src/components/ui/Input.js"
+      },
+      {
+        "name": "Label",
+        "path": "./src/components/ui/Label.js"
+      }
+    ]
+  }
+  
